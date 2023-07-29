@@ -6,16 +6,17 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-zYWVsapxYiflnOcugJPE3HelU67We-65Krn1LI71JuQwkeFI6nQZsp8S8ct_s-zMbAl-uJ0kcjmnf83ZutFE59otiLjQ=w1138-h962" className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to the WCU CS Club Website!!!!!!
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          free robux
         </a>
       </header>
     </div>
