@@ -1,3 +1,74 @@
+.Menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 6px rgb(225, 225, 225);
+  margin: 30px;
+  border-radius: 30px;
+  box-shadow: #c1c1c1 5px 10px 20px;
+}
+
+.Corner-logo {
+  height: 10vmin;
+}
+
+.Home-graphic {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 100%;
+  height: auto;
+}
+
+.Events-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #592C88;
+  height: 425px;
+}
+
+.Event-header {
+  color: white;
+}
+
+.Standard-button {
+  background-color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 15px;
+  width: 120px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.Purple-button {
+  background-color: #592C88;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 15px;
+  width: 120px;
+  height: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.Gold-button {
+  background-color: #C1A875;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 15px;
+  width: 180px;
+  height: 70px;
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+}
+
 .App {
   text-align: center;
 }
