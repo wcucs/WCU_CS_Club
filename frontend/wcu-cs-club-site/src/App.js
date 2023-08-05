@@ -26,20 +26,17 @@ function App() {
         </div>
       </div>
       
-      <header className="App-header">  
+      <div className="App-header">  
         <p>
           About Us
         </p>
-        <a
-          className="App-link"
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          free robux
-        </a>
-        <img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-zYWVsapxYiflnOcugJPE3HelU67We-65Krn1LI71JuQwkeFI6nQZsp8S8ct_s-zMbAl-uJ0kcjmnf83ZutFE59otiLjQ=w1138-h962" className="App-logo" alt="logo" />  
-      </header>
+        <div className="Officers">
+          <img src="https://cdn.discordapp.com/attachments/1020055404148961355/1137181218471944323/JosephHeadshot.png" className="Officer" alt="joseph-oladeji" />
+          <img src="https://cdn.discordapp.com/attachments/1020055404148961355/1137179231986659348/ZachHeadshot.png" className="Officer" alt="zach-eanes" />
+          <img src="https://cdn.discordapp.com/attachments/1020055404148961355/1137181962616963184/KaushalHeadshot.png" className="Officer" alt="kaushal-patel" />
+          <img src="https://cdn.discordapp.com/attachments/1020055404148961355/1137182271858810980/NolanHeadshot.png" className="Officer" alt="nolan-flinchum" />
+        </div>
+      </div>
     </div>
   );
 }
