@@ -1,6 +1,11 @@
 import './App.css';
+import Blurb from './components/Blurb'
+import { officerList } from "./Officers";
+import { useState } from 'react';
 
 function App() {
+  const [buttonBlurb, setButtonBlurb] = useState(false);
+
   return (
     <div className="App">
 
@@ -28,13 +33,24 @@ function App() {
       
       <div className="App-header">  
         <p>
-          About Us
+          CS Club Officers
         </p>
         <div className="Officers">
-          <img src="https://cdn.discordapp.com/attachments/1020055404148961355/1137181218471944323/JosephHeadshot.png" className="Officer" alt="joseph-oladeji" />
-          <img src="https://cdn.discordapp.com/attachments/1020055404148961355/1137179231986659348/ZachHeadshot.png" className="Officer" alt="zach-eanes" />
-          <img src="https://cdn.discordapp.com/attachments/1020055404148961355/1137181962616963184/KaushalHeadshot.png" className="Officer" alt="kaushal-patel" />
-          <img src="https://cdn.discordapp.com/attachments/1020055404148961355/1137182271858810980/NolanHeadshot.png" className="Officer" alt="nolan-flinchum" />
+          <img src="https://cdn.discordapp.com/attachments/1020055404148961355/1137181218471944323/JosephHeadshot.png" className="Officer" alt="joseph-oladeji" onClick={() => setButtonBlurb(true)} />
+          <img src="https://cdn.discordapp.com/attachments/1020055404148961355/1137179231986659348/ZachHeadshot.png" className="Officer" alt="zach-eanes" onClick={() => setButtonBlurb(true)}/>
+          <img src="https://cdn.discordapp.com/attachments/1020055404148961355/1137181962616963184/KaushalHeadshot.png" className="Officer" alt="kaushal-patel" onClick={() => setButtonBlurb(true)}/>
+          <img src="https://cdn.discordapp.com/attachments/1020055404148961355/1137182271858810980/NolanHeadshot.png" className="Officer" alt="nolan-flinchum" onClick={() => setButtonBlurb(true)}/>
+          {officerList.map(({ name, title, linkedIn, image, bio }) => (
+          <Blurb 
+            trigger={buttonBlurb}
+            setTrigger={setButtonBlurb}
+            image={image}
+            name={name}
+            title={title}
+            linkedIn={linkedIn}
+            bio={bio}
+          />
+        ))}
         </div>
       </div>
     </div>

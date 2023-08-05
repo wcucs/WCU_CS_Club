@@ -1,0 +1,36 @@
+.Blurb { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Blurb-inner {
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.Blurb-inner .Close-btn {
+    background: none;
+    border: none;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+    &:hover {
+        opacity: .6;
+    }
+}
