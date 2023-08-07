@@ -46,6 +46,13 @@
   transition-duration: 0.5s;
 }
 
+.Baseboard {
+  padding: 30px;
+  color: white;
+  font-size: large;
+  background-color: #1e2124;
+}
+
 .Standard-button {
   background-color: white;
   cursor: pointer;
@@ -94,11 +101,16 @@
 .App-header {
   background-color: #ffffff;
   min-height: 68vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(20px + 2vmin);
-  font-weight: bold;
+  font-size: calc(3px + 2vmin);
+  font-weight: normal;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
   color: rgb(0, 0, 0);
 }

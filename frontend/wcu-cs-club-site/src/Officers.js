@@ -29,6 +29,6 @@ export const officerList = [
         linkedIn: "https://www.linkedin.com/in/nolan-flinchum-174945262/",
         image: "https://cdn.discordapp.com/attachments/1020055404148961355/1137182271858810980/NolanHeadshot.png",
         cardImage: "https://media.discordapp.net/attachments/1020055404148961355/1137492330631405750/1674101426801.png",
-        bio: "Hello, my name is Nolan Flinchum, and I'm the current Web Master in the WCU CS Club. I also work as a CS/Math tutor at the Math Tutoring Center on campus. I am a CS Major with a Mathematics Minor here at WCU. Through dual-enrollment at Yadkin Valley Regional Career Academy and Davidson-Davie Community College, I currently have an AAS in IT: Networking and Cybersecurity. By May 2024 I will have a BS in Computer Science. I enjoy weightlifting, running, and playing videogames.",
+        bio: "Hey, my name is Nolan. I work as a CS/Math tutor at the Math Tutoring Center on campus. I'm a CS Major with a Mathematics Minor here at WCU. I currently have an AAS in IT: Networking and Cybersecurity. By May 2024 I'll have a BS in Computer Science. I enjoy weightlifting, running, and playing videogames.",
     }
 ]

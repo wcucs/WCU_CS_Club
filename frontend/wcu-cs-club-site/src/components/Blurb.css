@@ -12,12 +12,16 @@
 }
 
 .Blurb-inner {
+    display: flex;
+    flex-direction: row;
     position: relative;
-    padding: 32px;
+    text-align: left;
+    padding: 64px;
     width: 100%;
-    max-width: 640px;
+    max-width: 850px;
     background-color: white;
     border-radius: 15px;
+    font-size: 20px;
 }
 
 .Blurb-inner .Close-btn {

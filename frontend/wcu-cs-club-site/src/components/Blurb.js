@@ -6,10 +6,8 @@ function Blurb(props) {
         <div className="Blurb">
             <div className="Blurb-inner">
                 <button className="Close-btn" onClick={() => props.onClose()}>X</button>
-                { props.children }
-                <h3>{props.name}</h3>
-                <img src={props.cardImage} alt={props.name}/>
-                <p>Bio: {props.bio} </p>
+                <img src={props.image} alt={props.name}/>
+                <p>{props.bio}</p>
             </div>
         </div>
     );
