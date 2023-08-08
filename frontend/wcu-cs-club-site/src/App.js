@@ -19,9 +19,7 @@ function App() {
 
       {/* Menu Bar */}
       <div className="Menu-bar">
-        <div>
-          <img src ="https://cdn.discordapp.com/attachments/1020055404148961355/1135305104837320745/AITFw-wtZ0VsYHLjq704E1uwf3AIwklLHcHKudnZjjCMkFdRbH8BLo7ri3BnxvfrHtrPmDUtKCYY737nevTRCv0qpsyK6TApw2560-h962.png" className="Corner-logo" alt="logo" /> 
-        </div>
+        <img src ="https://cdn.discordapp.com/attachments/1020055404148961355/1135305104837320745/AITFw-wtZ0VsYHLjq704E1uwf3AIwklLHcHKudnZjjCMkFdRbH8BLo7ri3BnxvfrHtrPmDUtKCYY737nevTRCv0qpsyK6TApw2560-h962.png" className="Corner-logo" alt="logo" />
         <div>
           <button className="Standard-button">About Us</button>
           <button className="Standard-button">Events</button>
@@ -36,16 +34,22 @@ function App() {
       {/* Events bar */}
       <div className="Events-bar">
         <img src="https://cdn.discordapp.com/attachments/1020055404148961355/1135314055347834990/group-photo-event.png" className="" alt="group-event" />
-        <div className="App">
+        <div>
           <h1 className="Event-header">Upcoming Event: TBD</h1>
           <button className="Gold-button">Find out more</button>
         </div>
       </div>
       
-      {/* "About Us" section */}
+      {/* About Us section */}
       <div className="App-header">
         <br></br><h2>About Us</h2>
-        <p>We are an official chapter of the ACM or Association for Computing Machinery, but welcome anyone who is ready to learn and have some fun. Our club is dedicated to providing useful resources and practical workshops to help in the development of mission critical skills that any person will need throughout their career. We have people from many majors and try to offer a diverse range of activities for all.</p> 
+        <p>
+          We are an official chapter of the ACM or Association for Computing Machinery, but
+          welcome anyone who is ready to learn and have some fun. Our club is dedicated to
+          providing useful resources and practical workshops to help in the development of mission
+          critical skills that any person will need throughout their career. We have people from
+          many majors and try to offer a diverse range of activities for all.
+        </p> 
         <br></br><h2>CS Club Officers</h2>
         <div className="Officers">
           {officerList.map(({ name, title, linkedIn, image, cardImage, bio }) => (
@@ -75,14 +79,14 @@ function App() {
       {/* Bottom bar for social media links */}
       <div className="Baseboard">
         <div>
-          <a href="https://instagram.com" target="_blank">
-            <img className="Social" width='50px' src="https://cdn.discordapp.com/attachments/1020055404148961355/1138255524547272704/new-Instagram-logo-white-glyph.png" alt="instagram"/>
+          <a href="https://instagram.com" target="_blank" rel="noreferrer">
+            <img className="Social" src="https://cdn.discordapp.com/attachments/1020055404148961355/1138255524547272704/new-Instagram-logo-white-glyph.png" alt="instagram"/>
           </a>
-          <a href="https://discord.com" target="_blank">
-            <img className="Social" width='50px' src="https://cdn.discordapp.com/attachments/1020055404148961355/1137947454965301288/discord.jpg" alt="discord"/>
+          <a href="https://discord.com" target="_blank" rel="noreferrer">
+            <img className="Social" src="https://cdn.discordapp.com/attachments/1020055404148961355/1137947454965301288/discord.jpg" alt="discord"/>
           </a>        
-          <a href="https://facebook.com" target="_blank">        
-            <img className="Social" width='50px' src="https://cdn.discordapp.com/attachments/1020055404148961355/1138257788863258694/60fea6773d624000048712b5.png" alt="facebook"/>
+          <a href="https://facebook.com" target="_blank" rel="noreferrer">        
+            <img className="Social" src="https://cdn.discordapp.com/attachments/1020055404148961355/1138257788863258694/60fea6773d624000048712b5.png" alt="facebook"/>
           </a>
         </div>
         <p>© Western Carolina CS Club 2023</p>

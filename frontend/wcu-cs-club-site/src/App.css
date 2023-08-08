@@ -38,7 +38,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 20px
+  margin: 20px;
 }
 
 .Officer:hover {
@@ -55,6 +55,7 @@
 
 .Social {
   margin: 10px;
+  width: 50px;
 }
 
 .Standard-button {

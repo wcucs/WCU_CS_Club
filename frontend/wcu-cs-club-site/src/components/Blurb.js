@@ -1,6 +1,15 @@
 import React from 'react'
 import './Blurb.css'
 
+/* lines below are for testing with animation in the future
+import styled, {keyframes} from 'styled-components';
+import {bounce} from 'react-animations';
+const bounceAnimation = keyframes`${bounce}`;
+const Bounce = styled.div`
+  animation: 2s ${bounceAnimation} infinite;
+`;
+*/
+
 function Blurb(props) {
     return (
         <div className="Blurb">
