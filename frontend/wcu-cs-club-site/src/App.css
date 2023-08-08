@@ -53,6 +53,10 @@
   background-color: #1e2124;
 }
 
+.Social {
+  margin: 10px;
+}
+
 .Standard-button {
   background-color: white;
   cursor: pointer;

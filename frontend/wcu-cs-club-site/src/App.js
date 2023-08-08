@@ -74,7 +74,17 @@ function App() {
 
       {/* Bottom bar for social media links */}
       <div className="Baseboard">
-        <img width='50px' src="https://cdn.discordapp.com/attachments/1020055404148961355/1137947454965301288/discord.jpg" alt="discord"></img>
+        <div>
+          <a href="https://instagram.com" target="_blank">
+            <img className="Social" width='50px' src="https://cdn.discordapp.com/attachments/1020055404148961355/1138255524547272704/new-Instagram-logo-white-glyph.png" alt="instagram"/>
+          </a>
+          <a href="https://discord.com" target="_blank">
+            <img className="Social" width='50px' src="https://cdn.discordapp.com/attachments/1020055404148961355/1137947454965301288/discord.jpg" alt="discord"/>
+          </a>        
+          <a href="https://facebook.com" target="_blank">        
+            <img className="Social" width='50px' src="https://cdn.discordapp.com/attachments/1020055404148961355/1138257788863258694/60fea6773d624000048712b5.png" alt="facebook"/>
+          </a>
+        </div>
         <p>© Western Carolina CS Club 2023</p>
       </div>
 
