@@ -13,7 +13,7 @@ export const officerList = [
         linkedIn: "https://www.linkedin.com/in/zteanes/",
         image: "https://cdn.discordapp.com/attachments/1020055404148961355/1137179231986659348/ZachHeadshot.png",
         cardImage: "https://avatars.githubusercontent.com/u/117319002?v=4",
-        bio: "Enter Bio",
+        bio: "Hello! I'm Zach, I work as a CS/Math tutor at the MTC, and I'm also a TA for Dr. Barlowe's CS150. I'm a CS and Mathematics (Data Science) major. In my freetime, I enjoy powerlifting, reading books, and playing video games.",
     },
     {
         name: "Kaushal Patel",
