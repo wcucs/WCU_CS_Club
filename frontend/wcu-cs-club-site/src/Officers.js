@@ -21,7 +21,7 @@ export const officerList = [
         linkedIn: "https://www.linkedin.com/in/kaushalbpatel/",
         image: "https://cdn.discordapp.com/attachments/1020055404148961355/1137181962616963184/KaushalHeadshot.png",
         cardImage: "https://media.discordapp.net/attachments/1020055404148961355/1137488638461095936/3d81597d6d39b3dff79d0ff1ec000504.png",
-        bio: "Enter Bio",
+        bio: "Hey, I'm Kaushal. I'm a senior here at WCU, majoring in Computer Science. I work as a CS/Math tutor at the MTC. I'm also a TA for Dr. Brodhead's CS150. I enjoy playing video games, watching movies, and hanging out with friends.",
     },
     {
         name: "Nolan Flinchum",
