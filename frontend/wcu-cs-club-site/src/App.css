@@ -46,6 +46,11 @@
   transition-duration: 0.5s;
 }
 
+.Officer:not(:hover) {
+  transform: scale(1);
+  transition-duration: 0.5s;
+}
+
 .Baseboard {
   padding: 30px;
   color: white;
@@ -67,6 +72,7 @@
   width: 120px;
   height: 50px;
   font-weight: bold;
+  font-family: Fira Code;
 }
 
 .Purple-button {
@@ -78,6 +84,7 @@
   width: 120px;
   height: 50px;
   font-weight: bold;
+  font-family: Fira Code;
   color: white;
 }
 
@@ -91,7 +98,18 @@
   height: 70px;
   font-weight: bold;
   font-size: larger;
+  font-family: Fira Code;
   color: white;
+}
+
+.Standard-button:hover, .Purple-button:hover, .Gold-button:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.Standard-button:not(:hover), .Purple-button:not(:hover), .Gold-button:not(:hover) {
+  transform: scale(1);
+  transition-duration: 0.5s;
 }
 
 .App {
@@ -118,4 +136,24 @@
   margin-right: 20%;
   margin-bottom: 10%;
   color: rgb(0, 0, 0);
+}
+
+@font-face {
+  font-family: Fira Code;
+  src: url('https://fonts.googleapis.com/css?family=Fira Code');
+}
+
+h1 {
+  font-family: Fira Code;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Fira Code;
+  font-weight: bold;
+}
+
+p {
+  font-family: Fira Code;
+  font-size: x-large;
 }
